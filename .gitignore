@@ -1,0 +1,14 @@
+
+.DS_Store
+.DS_Store
+Builds/MacOSX/build/Debug/EZ_Dist.app/Contents/_CodeSignature/CodeResources
+Builds/MacOSX/build/Debug/EZ_Dist.app/Contents/MacOS/EZ_Dist
+Builds/MacOSX/EZ_Dist.xcodeproj/xcuserdata/davidjones.xcuserdatad/xcschemes/xcschememanagement.plist
+Builds/MacOSX/EZ_Dist.xcodeproj/project.xcworkspace/xcuserdata/davidjones.xcuserdatad/UserInterfaceState.xcuserstate
+Builds/MacOSX/build/Debug/libEZ_Dist.a
+Builds/MacOSX/EZ_Dist.xcodeproj/project.xcworkspace/xcuserdata/davidjones.xcuserdatad/UserInterfaceState.xcuserstate
+Builds/MacOSX/EZ_Dist.xcodeproj/xcuserdata/davidjones.xcuserdatad/xcschemes/xcschememanagement.plist
+*.plist
+*.xcuserstate
+Builds/MacOSX/build/Debug/EZ_Dist.app/Contents/PkgInfo
+*.xcuserstate

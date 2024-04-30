@@ -18,10 +18,13 @@ public:
     
 private:
     float amount, lpf_fc, hpf_fc, Q;
+    using Filter = juce::dsp::IIR::Filter<float>;
+    using FilterCoefs = juce::dsp::IIR::Coefficients<float>;
+    juce::dsp::Process
 }
 
 void Distortion::Distortion(){}
 void Distortion::Distortion~()
-
+void init(float sampleRate)
 
 #endif /* distortion_h */

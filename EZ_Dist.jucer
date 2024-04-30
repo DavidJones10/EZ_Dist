@@ -4,6 +4,8 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="tcZE9f" name="EZ_Dist">
     <GROUP id="{10FB132C-12B4-E6DD-360E-A21942BF2C81}" name="Source">
+      <FILE id="B1bDA3" name="my_biquad.h" compile="0" resource="0" file="Source/my_biquad.h"/>
+      <FILE id="LkKaX0" name="my_distortion.h" compile="0" resource="0" file="Source/my_distortion.h"/>
       <FILE id="ITHXVb" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="ZrDf3V" name="PluginProcessor.h" compile="0" resource="0"
