@@ -8,11 +8,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.EZ_Dist</string>
+    <string>com.EZDSP.EZDist</string>
     <key>CFBundleName</key>
-    <string>EZ_Dist</string>
+    <string>EZ Dist</string>
     <key>CFBundleDisplayName</key>
-    <string>EZ_Dist</string>
+    <string>EZ Dist</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>
@@ -29,11 +29,11 @@
     <array>
       <dict>
         <key>name</key>
-        <string>yourcompany: EZ_Dist</string>
+        <string>EZ DSP: EZ Dist</string>
         <key>description</key>
-        <string>EZ_Dist</string>
+        <string>EZ Dist</string>
         <key>factoryFunction</key>
-        <string>EZ_DistAUFactory</string>
+        <string>EZDistAUFactory</string>
         <key>manufacturer</key>
         <string>Manu</string>
         <key>type</key>

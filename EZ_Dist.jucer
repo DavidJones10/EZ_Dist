@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="NEHu6L" name="EZ_Dist" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
-  <MAINGROUP id="tcZE9f" name="EZ_Dist">
+<JUCERPROJECT id="NEHu6L" name="EZ Dist" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="EZ DSP">
+  <MAINGROUP id="tcZE9f" name="EZ Dist">
     <GROUP id="{10FB132C-12B4-E6DD-360E-A21942BF2C81}" name="Source">
+      <FILE id="gqF5h9" name="my_drive.h" compile="0" resource="0" file="Source/my_drive.h"/>
       <FILE id="B1bDA3" name="my_biquad.h" compile="0" resource="0" file="Source/my_biquad.h"/>
       <FILE id="LkKaX0" name="my_distortion.h" compile="0" resource="0" file="Source/my_distortion.h"/>
       <FILE id="ITHXVb" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -13,6 +15,12 @@
       <FILE id="zLeJa2" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="dSNSyD" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{79193C0C-C6E7-C90B-D8AF-CA53E834E37D}" name="Resources">
+      <FILE id="H39u08" name="EZ_Overdrive_background.png" compile="0" resource="1"
+            file="../EZ_Overdrive_background.png" xcodeResource="0"/>
+      <FILE id="QgbxEE" name="EZ_Distortion_background.png" compile="0" resource="1"
+            file="../EZ_Distortion_background.png"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>

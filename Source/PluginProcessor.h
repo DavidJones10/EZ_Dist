@@ -10,10 +10,12 @@
 
 #include <JuceHeader.h>
 #include "my_distortion.h"
+#include "my_drive.h"
 
 //==============================================================================
 /**
 */
+using namespace juce;
 class EZ_DistAudioProcessor  : public juce::AudioProcessor
 {
 public:
@@ -53,9 +55,14 @@ public:
     //==============================================================================
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
-    MyDistortion dist;
+    MyDistortion dist[2];
+    MyDrive drive[2];
+    EZ_LPF lpf[2];
+    AudioProcessorValueTreeState apvts;
+    dsp::Oversampling<float> oversampling;
 private:
     //==============================================================================
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (EZ_DistAudioProcessor)
 };
+
