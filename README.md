@@ -12,7 +12,7 @@ GUITAR EFFECTS PEDALS](https://ccrma.stanford.edu/~dtyeh/papers/yeh07_dafx_disto
 * If you are building as a VST3 or AU, you will need to place the EZ_Dist.VST3 or the EZ_DIST.component in the folders in which your DAW will look for them. On Mac this folder will be in a location that looks something like this: "Library/Audio/Plug-Ins/VST3" or "Library/Audio/Plug-Ins/Components." Each time you build the files, they will be in a directory that looks like this: "EZ_Dist/Builds/MacOSX/build/Debug/."
 * Once you have placed your built files into their proper directories, your DAW should scan them, and then that's it! You have successfully build the EZ_Dist plugin!
 
-#### There is also a short video showing how to build and demoing the plugin [here](https://youtu.be/MwwqMA6-xPY).
+#### There is also a short video showing how to build the plugin as well as a quick demo [here](https://youtu.be/MwwqMA6-xPY).
 
 # UI 
-![plot](./Assets/EZ_DIST_UI.png)
+![plot](./Assets/EZ_Dist_UI.png)
