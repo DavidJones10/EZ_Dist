@@ -17,10 +17,10 @@
       <FILE id="dSNSyD" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
     <GROUP id="{79193C0C-C6E7-C90B-D8AF-CA53E834E37D}" name="Resources">
-      <FILE id="H39u08" name="EZ_Overdrive_background.png" compile="0" resource="1"
-            file="../EZ_Overdrive_background.png" xcodeResource="0"/>
-      <FILE id="QgbxEE" name="EZ_Distortion_background.png" compile="0" resource="1"
-            file="../EZ_Distortion_background.png"/>
+      <FILE id="dvUIXE" name="EZ_Distortion_background.png" compile="0" resource="1"
+            file="Assets/EZ_Distortion_background.png"/>
+      <FILE id="eOtoTY" name="EZ_Overdrive_background.png" compile="0" resource="1"
+            file="Assets/EZ_Overdrive_background.png"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>

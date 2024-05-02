@@ -8,11 +8,11 @@
 
 namespace BinaryData
 {
-    extern const char*   EZ_Overdrive_background_png;
-    const int            EZ_Overdrive_background_pngSize = 335164;
-
     extern const char*   EZ_Distortion_background_png;
     const int            EZ_Distortion_background_pngSize = 321163;
+
+    extern const char*   EZ_Overdrive_background_png;
+    const int            EZ_Overdrive_background_pngSize = 335164;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
     const int namedResourceListSize = 2;
